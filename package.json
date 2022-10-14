@@ -1,0 +1,30 @@
+{
+  "name": "apiasistencia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "inde.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ever1ck/ApiAsistencia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ever1ck/ApiAsistencia/issues"
+  },
+  "homepage": "https://github.com/Ever1ck/ApiAsistencia#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.25.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
